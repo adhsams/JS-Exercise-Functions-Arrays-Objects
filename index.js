@@ -62,8 +62,9 @@ function addNumbers(num1, num2) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
+function getName(obj) {
   /* code here */
+   return `Hello, my name is ` + obj.name;
 }
 
 /**
@@ -79,8 +80,17 @@ function getName(/* code here */) {
  *         and returns a string like `Hello, my name is {name}`.
  *         where `{name}` is the name passed into `makeSmartPerson`.
 */
-function makeSmartPerson(/* code here */) {
+function makeSmartPerson(obj) {
   /* code here */
+  const name = {
+    name:"Leia",    
+  }
+    function sum (num1, num2) {
+    console.log(num1 + num2); 
+  }
+    function speak () {
+    return`Hello, my name is ${name}`;
+  }
 }
 
 
