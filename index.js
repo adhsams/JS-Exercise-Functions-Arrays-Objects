@@ -86,7 +86,7 @@ function makeSmartPerson(name) {
     name: name,
     sum: function(num1, num2) {
       return num1 + num2;
-    },
+     },
     speak: function() {
       return `Hello, my name is ${this.name}`;
     }
@@ -291,9 +291,9 @@ function getGermanCars(inventory) {
  * const argTimesTwo = (num) => num * 2;
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = (a, b) => a + b; // code here!
+const addFive = (num) => num + 5; // code here!
+const argTimesTwo =  (num) => num * 2; // code here!
 
 /**
  * ### Challenge `carMaker`
